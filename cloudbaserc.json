@@ -21,7 +21,7 @@
             "ESPOCRM_DATABASE_HOST": "{{env.DB_IP}}:{{env.DB_PORT}}",
             "ESPOCRM_DATABASE_USER": "{{env.MYSQL_USERNAME}}",
             "ESPOCRM_DATABASE_PASSWORD": "{{env.MYSQL_PASSWORD}}",
-            "ESPOCRM_ADMIN_USERNAME": "admin",
+            "ESPOCRM_ADMIN_USERNAME": "{{env.ADMIN_USERNAME}}",
             "ESPOCRM_ADMIN_PASSWORD": "{{env.ADMIN_PASSWORD}}",
             "ESPOCRM_LANGUAGE": "zh_CN",
             "TCB_NOT_SHOW_CYNOS_DB": "${Outputs.espoCRM.Properties.InstanceId}"
@@ -51,7 +51,7 @@
         }
       ],
       "environment": {
-        "ESPOCRM_ADMIN_USERNAME": {
+        "ADMIN_USERNAME": {
           "description": "管理员账号",
           "required": true,
           "default": "admin"
