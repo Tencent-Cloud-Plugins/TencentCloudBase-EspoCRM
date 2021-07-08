@@ -24,7 +24,7 @@
             "ESPOCRM_ADMIN_USERNAME": "{{env.ADMIN_USERNAME}}",
             "ESPOCRM_ADMIN_PASSWORD": "{{env.ADMIN_PASSWORD}}",
             "ESPOCRM_LANGUAGE": "zh_CN",
-            "TCB_NOT_SHOW_CYNOS_DB": "${Outputs.espoCRM.Properties.InstanceId}"
+            "TCB_NOT_SHOW_CYNOS_DB": "${Outputs.espocrm.Properties.InstanceId}"
           },
           "initialDelaySeconds": 10,
           "volumeMounts": {
