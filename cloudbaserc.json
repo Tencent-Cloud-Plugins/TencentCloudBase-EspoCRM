@@ -2,12 +2,12 @@
   "version": "1.0",
   "envId": "{{env.ENV_ID}}",
   "framework": {
-    "name": "EspoCRM",
+    "name": "espocrm",
     "plugins": {
       "client": {
         "use": "@cloudbase/framework-plugin-container",
         "inputs": {
-          "serviceName": "espoCRM",
+          "serviceName": "espocrm",
           "servicePath": "/",
           "uploadType": "image",
           "cpu": 1,
